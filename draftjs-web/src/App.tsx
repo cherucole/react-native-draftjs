@@ -35,18 +35,17 @@ const editorStyleSheet = `
   @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
   @import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
   
- 
   html *
 {
    font-size: 16px !important;
    line-height: 28px !important;
    font-family: 'DM Sans', sans-serif !important;
-    // font-weight: 300 ;
 }
 
   body {
     background-color: #242424;
     color: #fff !important;
+    font-weight: 300 !important;
   }
 
   h1 * {
@@ -54,44 +53,6 @@ const editorStyleSheet = `
     line-height:24px !important;
     font-weight: 700 !important;
   }
-
-  
-  // html {
-  //   color:white;
-  //   font-family: 'DM Sans', sans-serif;
-  //   font-size:16px;
-  //   line-height:24px !important;
-  // }
-
-  // h1 > div > span > span {
-  // font-size:24px !important;
-  // margin-top:0px !important;
-  // margin-bottom:0px !important;
-  // }
-
-  
-  // h1 > div > span > span {
-  // font-size:64px;
-  // margin-top:0px;
-  // margin-bottom:0px;
-  // }
-
-
- 
-  // li > div > span > span {
-  //   // font-family: 'Chilanka', cursive;
-  //   // font-family: "Source Sans Pro", sans-serif;
-  //   font-size: 16px;
-  //   line-height: 18px;
-  //   // color: black;
-  // }
-
-  // span {
-  //   // font-family: "Source Sans Pro", sans-serif;
-  //   font-size: 15px;
-  //   line-height: 26px;
-  //   // color: black;
-  // }
 `;
 
 export type defaultSourceType = 'string';
