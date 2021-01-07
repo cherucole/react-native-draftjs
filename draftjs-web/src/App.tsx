@@ -49,9 +49,9 @@ const editorStyleSheet = `
   }
 
   h1 * {
-    font-size: 24px !important;
+    font-size: 20px !important;
     line-height:24px !important;
-    font-weight: 700 !important;
+    font-weight: 500 !important;
   }
 `;
 
