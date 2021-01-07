@@ -45,13 +45,13 @@ const editorStyleSheet = `
   body {
     background-color: #242424;
     color: #fff !important;
-    font-weight: 300 !important;
+    font-weight: 400 !important;
   }
 
   h1 * {
     font-size: 20px !important;
     line-height:24px !important;
-    font-weight: 500 !important;
+    font-weight: 600 !important;
   }
 `;
 
